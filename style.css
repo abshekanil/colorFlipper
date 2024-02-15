@@ -1,0 +1,74 @@
+
+body{
+    background-color: red;
+}
+h1{
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+#boxContainer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#backgroundBox{
+    width: 430px;
+    height: 70px;
+    background-color: black;
+    position: absolute;
+    top: 40%;
+    border-radius: 10px;
+    
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+#btn{
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 5px;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 60%;
+    left: 47%;
+}
+
+#btn:hover{
+    opacity: 0.9;
+    color: black;
+}
+
+@media only screen and (max-width: 700px)
+{
+    #btn{
+        left:40%;
+    }
+}
+
+@media only screen and (max-width: 650px)
+{
+    #btn{
+        left:35%;
+    }
+
+    #backgroundBox{
+        width: 250px;
+
+    }
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 20px;
+    }
+}
